@@ -31,3 +31,10 @@ Note:
 The IP addresses defined must be a /32 (IPv4) or /128 (IPv6) respectively.
 The gateway IPs have been selected on purpose as "unused" addresses that do not exist in the external network.
 They are just used as a way to get packets from the container the host system. 
+
+## Installation
+
+```
+go get -u github.com/tomponline/lxc-routednet
+cp `go env GOPATH`/bin/lxc-routednet /var/lib/lxc/
+```
