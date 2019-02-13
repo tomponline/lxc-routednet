@@ -30,7 +30,7 @@ Note:
 
 The IP addresses defined must be a /32 (IPv4) or /128 (IPv6) respectively.
 The gateway IPs have been selected on purpose as "unused" addresses that do not exist in the external network.
-They are just used as a way to get packets from the container the host system. 
+They are just used as a way to get packets from the container to the host system. 
 
 ## Installation
 
