@@ -1,4 +1,4 @@
-# LXC Routed Net Hook
+# LXC Routed Network Hook
 
 This tool is designed to be used as an LXC network hook script to emulate OpenVZ style venet networking.
 It uses a veth pair between the host and the container, and then uses proxy ARP and NDP on the host
