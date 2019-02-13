@@ -1,4 +1,4 @@
-# Usage
+# LXC Routed Net Hook
 
 This tool is designed to be used as an LXC network hook script to emulate OpenVZ style venet networking.
 It uses a veth pair between the host and the container, and then uses proxy ARP and NDP on the host
@@ -10,8 +10,9 @@ Each of the container's IPs are compared against the IP/Subnet of the host inter
 
 If no matching host interface can be found, then no proxy ARP/NDP is configured, however a static route is still added to the container, in case the IP is routed to the host.
 
-Example Usage:
+## Example Usage:
 
+/var/lib/lxc/test/config
 ```
 # Network configuration
 lxc.net.0.type = veth
