@@ -36,5 +36,5 @@ They are just used as a way to get packets from the container to the host system
 
 ```
 go get -u github.com/tomponline/lxc-routednet
-cp `go env GOPATH`/bin/lxc-routednet /var/lib/lxc/
+cp `go env GOPATH`/bin/lxc-routednet /usr/libexec/lxc/
 ```
